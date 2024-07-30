@@ -5,7 +5,7 @@ import Footer from './components/shared/Footer/Footer';
 import HomePage from './pages/home/HomePage';
 import SearchPage from './pages/search/SearchPage';
 import ClinicPage from './pages/clinic/ClinicPage';
-import TryItOnPage from './pages/tryItOn/TryItOnPage';
+import AccountPage from './pages/account/AccountPage';
 import './App.css';
 
 const App: React.FC = () => {
@@ -17,7 +17,7 @@ const App: React.FC = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/clinic" element={<ClinicPage />} />
-          <Route path="/try-it-on" element={<TryItOnPage />} />
+          <Route path="/account" element={<AccountPage />} />
         </Routes>
         <Footer />
       </div>

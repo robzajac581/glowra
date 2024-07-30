@@ -5,11 +5,18 @@
 .search-header h1 {
   font-size: 24px;
   margin-bottom: 10px;
+  justify-content: left;
+  display: flex;
+  font-family: 'Louize', serif;
+  font-weight: normal;
 }
 
 .search-header p {
   color: #666;
   margin-bottom: 15px;
+  justify-content: left;
+  display: flex;
+  font-size: 12px;
 }
 
 .search-input-container {

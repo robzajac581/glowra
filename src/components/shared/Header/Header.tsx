@@ -24,8 +24,8 @@ const Header: React.FC = () => {
           </button>
         </div>
         <div className="auth-buttons">
-          <button className="sign-up">Sign up</button>
-          <button className="login">Login</button>
+          <Link to="/account" className="sign-up">Sign up</Link>
+          <Link to="/account" className="login">Login</Link>
         </div>
       </div>
     </header>
