@@ -1,0 +1,45 @@
+.highlights {
+    margin-bottom: 40px;
+  }
+  
+  .mainTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .highlightGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .highlightCard {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-right: 15px;
+    flex-shrink: 0;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  @media (max-width: 768px) {
+    .highlightGrid {
+      grid-template-columns: 1fr;
+    }
+  }

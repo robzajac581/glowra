@@ -1,0 +1,77 @@
+.footer {
+  background-color: #ffffff;
+  padding: 2rem 4rem;
+  font-family: Arial, sans-serif;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 5.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column h4 {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.footer-column a {
+  color: #000;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.social-media {
+  text-align: right;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.social-icons a {
+  width: 24px;
+  height: 24px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+
+/* .icon-whatsapp { background-image: url('path-to-whatsapp-icon.png'); }
+.icon-threads { background-image: url('path-to-threads-icon.png'); }
+.icon-instagram { background-image: url('path-to-instagram-icon.png'); }
+.icon-facebook { background-image: url('path-to-facebook-icon.png'); }
+.icon-pinterest { background-image: url('path-to-pinterest-icon.png'); } */
+
+.copyright {
+  font-size: 0.8rem;
+  color: #666;
+  text-align: right;
+}

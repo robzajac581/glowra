@@ -1,0 +1,29 @@
+.toggleContainer {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+}
+
+.toggleButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.toggleButton:hover {
+  background-color: #0056b3;
+}
+
+.editingMode {
+  background-color: #dc3545;
+}
+
+.editingMode:hover {
+  background-color: #c82333;
+}

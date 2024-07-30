@@ -1,0 +1,57 @@
+.horizontal-filter-bar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.horizontal-filter-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.filter-container {
+  display: flex;
+  gap: 15px;
+  flex-grow: 1;
+}
+
+.filter-item {
+  position: relative;
+  flex-grow: 1;
+}
+
+.filter-item select {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none;
+  background-color: white;
+  font-size: 14px;
+  color: #333;
+}
+
+.filter-item::after {
+  content: '\25BC';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.apply-filters {
+  padding: 10px 20px;
+  background-color: #4285F4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.apply-filters:hover {
+  background-color: #3367D6;
+}

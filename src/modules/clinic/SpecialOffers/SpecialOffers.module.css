@@ -1,0 +1,56 @@
+.specialOffers {
+  background-color: #f8f4ff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.specialOffers h3 {
+  font-family: 'Louize', serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.endTime {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.originalPrice {
+  text-decoration: line-through;
+  color: #666;
+  margin-right: 10px;
+}
+
+.discountedPrice {
+  color: #6b46c1;
+  font-weight: bold;
+}
+
+.addOffer {
+  background-color: #fff;
+  color: #6b46c1;
+  border: 1px solid #6b46c1;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.addOffer:hover {
+  background-color: #6b46c1;
+  color: #fff;
+}

@@ -1,0 +1,28 @@
+.local-doctors {
+  padding: 4rem 2rem;
+}
+
+.local-doctors h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: 'Louize', serif;
+  font-weight: normal;
+}
+
+.local-doctors h5 {
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-weight: normal;
+  line-height: 1.5;
+  font-family: 'Avenir', 'Arial', sans-serif;
+}
+
+.doctor-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}

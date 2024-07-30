@@ -1,0 +1,23 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .clinic-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .two-column-layout {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .left-column {
+    flex: 11;
+  }
+  
+  .right-column {
+    flex: 5;
+  }

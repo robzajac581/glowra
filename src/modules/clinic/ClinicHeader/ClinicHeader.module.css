@@ -1,0 +1,77 @@
+.clinicHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #fff;
+}
+
+.logoAndInfo {
+  display: flex;
+  align-items: center;
+}
+
+.clinicLogo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+.clinicInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.clinicName {
+  font-family: 'Louize', serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.clinicTagline {
+  font-family: 'Avenir', 'Arial', sans-serif;
+  font-size: 16px;
+  color: #666;
+  margin: 0 0 10px 0;
+}
+
+.clinicHours {
+  font-family: 'Avenir', 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+.openNow {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.closingTime {
+  color: #666;
+  margin-left: 5px;
+}
+
+.clinicRating {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.stars {
+  font-size: 20px;
+  color: #FFD700;
+  letter-spacing: 2px;
+}
+
+.reviewCount {
+  font-family: 'Avenir', 'Arial', sans-serif;
+  font-size: 12px;
+  color: #666;
+  margin-top: 2px;
+}

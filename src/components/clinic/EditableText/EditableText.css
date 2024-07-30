@@ -1,0 +1,28 @@
+.editableText {
+  display: inline-block;
+  padding: 0.25rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.editingMode {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+}
+
+.editInput {
+  font-size: inherit;
+  font-family: inherit;
+  border: none;
+  background: transparent;
+  width: 100%;
+}
+
+.editInput:focus {
+  outline: none;
+}
+
+.hoverEffect:hover {
+  background-color: #e9ecef;
+  cursor: text;
+}
